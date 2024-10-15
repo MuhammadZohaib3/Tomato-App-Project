@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  width: 80%;
+  margin: auto;
+}
+
+.logo{
+  width: 150px;
+  
+}
+.nav-bar{
+  display: flex;
+  color: #49557e;
+  list-style: none;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-bar .active {
+  border-bottom: 3px solid black;
+  cursor: pointer;
+
+}
+.navBar-right{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.navBar-right button{
+  border-radius: 50px;
+  border: 1px solid tomato;
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #49557e;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.navBar-right button:hover{
+  background-color: #fff4f2;
+ 
+}
+.search-icon{
+  position: relative;
+}
+.search-icon .dot{
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: tomato;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
+}
+
+@media (max-width : 1050px) {
+  .container .logo{
+    width: 140px;
+  }
+  .nav-bar{
+    gap: 20px;
+    font-size: 17px;
+  }
+  .navBar-right{
+    gap:30px
+  }
+  .navBar-right img{
+    width: 22px;
+  }
+  .navBar-right button{
+    padding: 8px 25px;
+  }
+
+}
+
+@media (max-width : 900px) {
+  .container .logo{
+    width: 120px;
+  }
+  .nav-bar{
+    gap: 15px;
+    font-size: 16px;
+  }
+  .navBar-right{
+    gap:20px
+  }
+  .navBar-right img{
+    width: 20px;
+  }
+  .navBar-right button{
+    padding: 7px 20px;
+    font-size: 15px;
+  }
+
+}
+@media (max-width : 750px) {
+
+  .nav-bar{
+  display: none;
+  }
+
+
+}

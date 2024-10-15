@@ -1,0 +1,48 @@
+.place-order {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 100px;
+  gap: 50px;
+}
+.placeorder-left {
+  width: 100%;
+  max-width: max(30%, 500px);
+}
+.placeorder-title {
+  font-weight: 600;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+.placeorder-left input {
+  margin-bottom: 15px;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  outline-color: tomato;
+}
+.placeorder-button button {
+  background-color: tomato;
+  color: white;
+  width: max(10vw, 150px);
+  padding: 10px 5px;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+}
+.multiple-fields {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+}
+.placeorder-right {
+  width: 80%;
+  max-width: max(40%, 500px);
+  margin-top: -80px;
+}
+.place-order .card-bottom button {
+  margin-top: 30px;
+}
